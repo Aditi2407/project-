@@ -1,0 +1,13 @@
+#include<stdio.h>  
+#include<stdlib.h>  
+ int main()    
+{    
+int a=40, b=80;      
+printf("Before swap a=%d b=%d",a,b);       
+a=a*b;//a=3200 (40*80)    
+b=a/b;//b=40 (3200/80)    
+a=a/b;//a=80 (3200/40)    
+ system("cls");  
+printf("\nAfter swap a=%d b=%d",a,b);       
+return 0;  
+}   
